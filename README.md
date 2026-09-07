@@ -1,28 +1,78 @@
-# Play - Free Tailwind CSS Template for Startup, Apps and SaaS
+# AgentLens — Secure Every AI Agent
 
-Play is an open-source and free Tailwind CSS template co-created by TailGrids and UIdeck. This template specially crafted for SaaS, startup, business and software website.
-Play crafted in a way that you can use with almost all sort of web project. This is Tailwind CSS template built using [TailGrids](https://tailgrids.com/) components.
+AgentLens is the official marketing website for [chacharuntime.com](https://www.chacharuntime.com/), an Enterprise Agent Security Platform that discovers, understands, assesses, controls, and protects every AI agent across an organization.
 
-### This template crafted using 🥞 [TailGrids](https://tailgrids.com/) UI components
+> Discover, understand, and control every AI agent across your enterprise.
 
-### [🚀 View Demo](https://play-tailwind.tailgrids.com/)
+## Vision
 
-### [⬇️ Download Now](https://links.tailgrids.com/play-download)
+AI agents are becoming digital workers: they operate inside business systems, use tools, access data, and take action on a company's behalf. AgentLens exists to be a new security layer for this new kind of worker, giving security teams the visibility and control they need to protect every agent action.
 
-[![play-tailwind](https://cdn.tailgrids.com/play-tailwind.jpg)](https://play-tailwind.tailgrids.com/)
+## Core capabilities
 
-## 📃 License
+| Capability | What it does |
+| --- | --- |
+| Agent Discovery | Find every agent, MCP server, tool, skill, model, and connection across your enterprise. |
+| Agent Intelligence | Go beyond events to understand intent, context, behavior, and agent relationships. |
+| Agent Risk | Continuously assess agent identity, access, behavior, intent, and relationships. |
+| Agent Control | Define what every agent can access, what it can do, and when it needs approval. |
 
-Play is an open-source template, you can use it with your personal or commercial projects without any attribution or backlink.
+## How runtime protection works
 
-## 💙 Support
+AgentLens evaluates every agent action against identity, intent, context, and risk, then returns a decision before the action reaches its target. It connects through existing agent hooks, gateways, SDKs, and APIs, so there is no need to install anything on every device.
 
-You can always support this project by [Starring🌟 This Repository](https://github.com/tailgrids/play-tailwind)
-and sharing with friends. Also open an issue if you find bug or feel free to contribute by pull requests after fixing any issue or adding more values.
+Custom policies are built around who, what, where, when, why, risk, and decision.
 
-### Update Logs: 2.0 - Nov 2023
-- Design refresh
-- New marketing section
-- Dark mode support
-- Code and performance optimization
-- Updated dependencies
+## Pricing at a glance
+
+| Plan | Price | Best for | Highlights |
+| --- | --- | --- | --- |
+| Free | $0 / month | Individual practitioners exploring agent visibility | Agent Discovery, up to 100 agents, basic Agent Intelligence |
+| Growth | $59 / month | Teams protecting MCP connections and sensitive data | MCP Security, Data Protection, Human Approval, up to 10,000 agents, priority support |
+| Enterprise | $99 / month | Agentic enterprises operating at scale | Everything in Growth, Continuous Validation, SSO/SCIM, unlimited agents, audit and compliance, dedicated support |
+
+## This repository
+
+This repository contains the public AgentLens website. It is a static site built with Tailwind CSS.
+
+### Tech stack
+
+- HTML
+- Tailwind CSS
+- Vanilla JavaScript
+
+### Getting started
+
+```bash
+npm install
+npm run dev
+```
+
+The development command watches `src/input.css` and generates `src/css/tailwind.css`.
+
+### Project structure
+
+```text
+.
+├── assets/
+│   ├── css/
+│   ├── images/
+│   └── js/
+├── src/
+│   ├── css/tailwind.css
+│   └── input.css
+├── 404.html
+├── about.html
+├── blog-details.html
+├── blog-grids.html
+├── contact.html
+├── index.html
+├── pricing.html
+├── signin.html
+├── signup.html
+└── package.json
+```
+
+## License
+
+MIT
